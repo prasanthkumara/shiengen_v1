@@ -26,14 +26,14 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-7 col-lg-6 col-md-6 col-6">
+            <div className="col-xl-10 col-lg-12 col-md-6 col-6">
               <div className="menu-area menu-padding">
                 <div className="main-menu">
                   <nav id="mobile-menu" className="d-none d-lg-block">
                     <ul>
-                      <li className="has-dropdown">
+                      <li className="">
                         <Link href="/">Home</Link>
-                        <ul className="sub-menu">
+                        {/* <ul className="sub-menu">
                           <li>
                             <Link href="/">Home One </Link>
                           </li>
@@ -43,11 +43,11 @@ const Header = () => {
                           <li>
                             <Link href="/home-three">Home Three</Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
-                      <li className="has-dropdown">
-                        <Link href="/services">Services</Link>
-                        <ul className="sub-menu">
+                      <li className="">
+                        <Link href="/services">Products</Link>
+                        {/* <ul className="sub-menu">
                           <li>
                             <Link href="/services">Services</Link>
                           </li>
@@ -56,9 +56,9 @@ const Header = () => {
                               <a>Services Details</a>
                             </Link>
                           </li>
-                        </ul>
+                        </ul> */}
                       </li>
-                      <li className="has-dropdown">
+                      {/* <li className="">
                         <Link href="/about">Pages</Link>
                         <ul className="sub-menu">
                           <li>
@@ -83,8 +83,8 @@ const Header = () => {
                             <Link href="/faq">FAQ Page</Link>
                           </li>
                         </ul>
-                      </li>
-                      <li className="has-dropdown">
+                      </li> */}
+                      {/* <li className="">
                         <Link href="/blog">News</Link>
                         <ul className="sub-menu">
                           <li>
@@ -94,7 +94,7 @@ const Header = () => {
                             <Link href="/blog-details">News Details</Link>
                           </li>
                         </ul>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/contact">Contact</Link>
                       </li>
@@ -113,22 +113,22 @@ const Header = () => {
                 </button>
               </div>
             </div>
-            <div className="col-xl-3 col-lg-4 d-none d-lg-block">
+            {/* <div className="col-xl-3 col-lg-4 d-none d-lg-block">
               <div className="header-info f-right">
                 <div className="info-item info-item-right">
                   <span>Phone Number</span>
                   <h5>
-                    <a href="tel:+88096389">786 686 350 36</a>
+                    <a href="tel:+917406472773">7406472773</a>
                   </h5>
                 </div>
                 <div className="info-item">
                   <span>Free Consultancy</span>
                   <h5>
-                    <a href="mailto:info@webmail.com">info@webmail.com</a>
+                    <a href="mailto:shivakrupa773@gmail.com">shivakrupa773@gmail.com</a>
                   </h5>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </header>

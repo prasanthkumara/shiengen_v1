@@ -12,13 +12,13 @@ const Footer = () => {
                   <div className="footer__logo">
                     <Link href="/">
                       <a>
-                        <img src="assets/img/logo/footer-logo.png" alt="" />
+                        <img src="assets/img/logo/logo-white.png" alt="" />
                       </a>
                     </Link>
                   </div>
                 </div>
               </div>
-              <div className="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+              <div className="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10">
                 <div className="footer__widget mb-40">
                   <h5 className="footer__widget-title">Main Links</h5>
                   <div className="footer__widget-content">
@@ -47,7 +47,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
+              {/* <div className="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-6">
                 <div className="footer__widget mb-40">
                   <h5 className="footer__widget-title">Other Pages</h5>
                   <div className="footer__widget-content">
@@ -140,9 +140,9 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
-            <div className="footer__copyright white-bg mt-60">
+            {/* <div className="footer__copyright white-bg mt-60">
               <div className="row">
                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                   <div className="footer__copyright-text">
@@ -159,7 +159,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="footer__shape-1">
             <img src="assets/img/footer/footer-shape-1.png" alt="" />

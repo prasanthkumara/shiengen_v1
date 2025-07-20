@@ -14,8 +14,8 @@ const Services = () => {
             <Header/>
             <Breadcrumb title="Services" subtitle="What we do" />
             <ServicesArea/>
-            <PricingArea/>
-            <VideoArea/>
+            {/* <PricingArea/> */}
+            {/* <VideoArea/> */}
             <BlogArea/>
             <Footer/>
         </main>

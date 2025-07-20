@@ -83,7 +83,8 @@
     }
 }
 .ab-image.w-img {
-    margin-left: 80px;
+    height:400px;
+    overflow: hidden;
     @media #{$xs} {
         margin-left: 0;
     }

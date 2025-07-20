@@ -9,13 +9,13 @@ const AboutUs = () => {
             <div className="col-xl-6 col-lg-6">
               <div className="ab-tab-info mb-30">
                 <div className="ab-image w-img">
-                  <img src="assets/img/about/about-1.jpg" alt="" />
+                  <img src="assets/img/products/taper-roller-conveyer.png" alt="" />
                 </div>
                 <div className="absp-text absp-text-1">
                   <i className="flaticon-windmill"></i>
                   <div className="absp-info">
                     <h5>
-                      <span className="counter">5000</span>+
+                      <span className="counter">50</span>+
                     </h5>
                     <span className="absm-title">Projects Done</span>
                   </div>
@@ -24,7 +24,7 @@ const AboutUs = () => {
                   <i className="flaticon-container-1"></i>
                   <div className="absp-info">
                     <h5>
-                      <span className="counter">3300</span>+
+                      <span className="counter">30</span>+
                     </h5>
                     <span className="absm-title">Happy Customer</span>
                   </div>
@@ -42,18 +42,15 @@ const AboutUs = () => {
                   </div>
                 </div>
                 <p className="abd-text">
-                  We is the partner of choice for many of the world’s leading
-                  enterprises, SMEs and technology challengers.
+                We are the partner of choice for many of India’s leading enterprises and industries.
                 </p>
                 <div className="ab-author mb-30">
                   <h5>
-                    Bhocherd Simon <span>- Founder</span>
+                    Pramod K R <span>- Founder</span>
                   </h5>
                 </div>
                 <p className="sm-text mb-45">
-                  Our mission is to provide quality English language instruction
-                  a variety of courses to international and local students in a
-                  professional and supportive atmosphere .
+                Our mission is to design, manufacture, and deliver high-performance conveyor belt solutions that drive efficiency, durability, and innovation across industries. We are committed to supporting our clients with reliable products, customized engineering, and timely service—helping them move materials safely, smoothly, and sustainably.
                 </p>
                 <div className="ab-button mb-30">
                   <Link href="/about">

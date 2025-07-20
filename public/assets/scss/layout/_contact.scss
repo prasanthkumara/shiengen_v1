@@ -11,6 +11,9 @@
             z-index: 1;
         }
     }
+    .align-center{
+        align-items: center;
+    }
     &__item{
         &:hover{
             & .contact__icon i{

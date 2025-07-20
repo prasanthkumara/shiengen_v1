@@ -39,7 +39,7 @@
 .logo{
     width: 180px;
     height: 100px;
-    background-color: var(--tp-theme-1);
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@
     border-bottom-right-radius: 6px;
 }
 .logo-image {
-    height:70px;
+    height:100px;
 }
 //main-menu
 .main-menu{
@@ -309,7 +309,7 @@
             color: var(--tp-common-white);
         }
         &-right{
-            margin-right: 40px;
+            margin-right: 20px;
             @media #{$xl} {
                 margin-right: 20px;
             }

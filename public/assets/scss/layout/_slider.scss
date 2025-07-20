@@ -27,6 +27,9 @@
 	transition: all 10.5s cubic-bezier(0, 0, 0.2, 1);
 	mix-blend-mode: multiply;
 }
+.slider-area {
+	height: 100vh;
+}
 .item-slider{
 	position: relative;
 	display: flex;
@@ -71,7 +74,7 @@
 		}
 	}
 	& .slider-title{
-		font-size: 120px;
+		font-size: 100px;
 		color: var(--tp-common-white);
 		@media #{$xl,$lg} {
 			font-size: 100px;

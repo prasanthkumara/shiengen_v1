@@ -11,27 +11,9 @@ const HeroSlider = () => {
   const sliderData = [
     {
       id: 1,
-      title: "Industrial",
-      subtitle: "Metal Works",
+      title: "Welcome to ",
+      subtitle: "Shivakrupa Engineering",
       img: "assets/img/slider/slider-01.jpg",
-    },
-    {
-      id: 2,
-      title: "Construction",
-      subtitle: "Oil Works",
-      img: "assets/img/slider/slider-02.jpg",
-    },
-    {
-      id: 3,
-      title: "Architecture",
-      subtitle: "Interior Works",
-      img: "assets/img/slider/slider-03.jpg",
-    },
-    {
-      id: 4,
-      title: "Construction",
-      subtitle: "Cotton Works",
-      img: "assets/img/slider/slider-02.jpg",
     },
   ];
 
@@ -46,7 +28,7 @@ const HeroSlider = () => {
             className="swiper-wrapper"
             autoplay={{ delay: 5000 }}
             effect={"fade"}
-            modules={[Navigation,EffectFade,Autoplay]}
+            modules={[Navigation,EffectFade]}
             navigation={{
               nextEl: ".swiper-button-next",
               prevEl: ".swiper-button-prev",
@@ -90,13 +72,6 @@ const HeroSlider = () => {
               );
             })}
           </Swiper>
-
-          <div className="swiper-button-prev ms-button">
-            <i className="far fa-long-arrow-left"></i>
-          </div>
-          <div className="swiper-button-next ms-button">
-            <i className="far fa-long-arrow-right"></i>
-          </div>
         </div>
       </section>
     
