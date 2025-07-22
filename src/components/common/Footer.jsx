@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer-area black-bg-2 pt-100 fix">
           <div className="container">
             <div className="row">
-              <div className="col-xl-2 col-lg-2 col-md-3 col-sm-4">
+              {/* <div className="col-xl-2 col-lg-2 col-md-3 col-sm-4">
                 <div className="footer__widget mb-40">
                   <div className="footer__logo">
                     <Link href="/">
@@ -17,7 +17,7 @@ const Footer = () => {
                     </Link>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10">
                 <div className="footer__widget mb-40">
                   <h5 className="footer__widget-title">Main Links</h5>

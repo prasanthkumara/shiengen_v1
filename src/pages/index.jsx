@@ -20,14 +20,14 @@ const index = () => {
           <Header/>  
           <HeroSlider/>
           <AboutUs/>
-          <ServicesArea/>
-          <SdBanner/>
+          {/* <ServicesArea/> */}
+          {/* <SdBanner/> */}
           {/* <BrandArea/> */}
-          <FeatureArea/>
-          <Testimonial/>
-          <TeamArea/>
-          <ProcessArea/>
-          <BlogArea/>
+          {/* <FeatureArea/> */}
+          {/* <Testimonial/> */}
+          {/* <TeamArea/> */}
+          {/* <ProcessArea/> */}
+          {/* <BlogArea/> */}
           <Footer/>
         </main>
     );
